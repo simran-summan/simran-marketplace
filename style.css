@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-image: linear-gradient(to right top, #d8dce3, #d6dfe7, #d3e2e9, #d2e6e9, #d1e9e8);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #2f436d;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+li {
+    float: left;
+    padding: 5px 21px;
+    font-family: 'Playfair Display', serif;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: gray;
+    color: white;
+}
+
+li a:hover {
+    background-color: #233763;
+    border-radius: 10px;
+    color: white;
+    /* padding: 5px;   */
+}
+
+.btn-signUp {
+    /* background-color: white; */
+    height: 27px;
+    margin: 12px;
+    margin-left: 317px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+#searchbar {
+    margin: 8px 56px 9px 92px;
+    border-radius: 4px;
+
+}
+
+.btn-signUp:hover {
+    background-color: #233763;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 19px;
+}
+
+/* #item{ 
+    display: list-item;     
+   } */
